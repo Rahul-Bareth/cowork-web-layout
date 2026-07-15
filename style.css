@@ -1,3 +1,12 @@
+@font-face {
+  font-family: "Neue Regrade";
+  src:
+    url("./fonts/NeueRegrade-Regular.woff2") format("woff2"),
+    url("./fonts/NeueRegrade-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -5,149 +14,155 @@
 }
 
 body {
-  /* background: red; */
+  font-family: "Neue Regrade", sans-serif;
 }
 
 h1 {
   font-size: 96px;
   font-weight: 700;
-  color: #1D1E1C;
+  color: #1d1e1c;
   line-height: 100%;
-  /* font-family: Neue Regrade; */
+  font-family: Neue Regrade;
 }
 
 h2 {
   font-size: 48px;
   font-weight: 700;
-  color: #1D1E1C;
+  color: #1d1e1c;
   line-height: 120%;
   /* font-family: Neue Regrade; */
 }
-
 
 h3 {
   font-size: 24px;
   line-height: 140%;
   font-weight: 700;
-  color: #1D1E1C;
+  color: #1d1e1c;
   /* font-family: Neue Regrade; */
 }
 
 p {
   font-size: 14px;
-  color: #1D1E1C;
+  color: #1d1e1c;
+}
+
+.h4 {
+  font-size: 14px;
+  font-size: 600;
+  line-height: 150%;
+  text-transform: uppercase;
 }
 
 button {
-  width: 100px;
-  height: 45px;
+  width: 120px;
+  height: 50px;
   border-radius: 42px;
-  border: 1px solid #1D1E1C;
+  border: 1px solid #1d1e1c;
   padding: 12px 24px;
-  color: #FFFFFF;
-  background: #1D1E1C;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  background: #1d1e1c;
   cursor: pointer;
 }
 
-
-
 /* Header Section */
-  header {
-    min-width: 1280px;
-    height: 100px;
-    padding:  15px 64px;
-  }
+header {
+  min-width: 1280px;
+  height: 120px;
+  padding: 15px 64px;
+}
 
-  .navbar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 75px;
-  }
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 75px;
+}
 
+.logo {
+  font-size: 50px;
+}
+
+.nav-right {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 48px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 25px;
+  list-style: none;
+}
+
+li a {
+  text-decoration: none;
+  font-size: 24px;
+  color: black;
+}
+
+li a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.nav-btn-container {
+  display: flex;
+  gap: 25px;
+}
+
+.log-in-btn {
+  background: transparent;
+  border: 1px solid #1d1e1c;
+  color: #1d1e1c;
+}
+
+/* Hero-Section */
+
+.hero-section {
+  display: flex;
+  justify-content: center;
+  height: 865px;
+  min-width: 1280px;
+  gap: 22px;
+  padding: 112px 64px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 40px;
+}
+
+.tagline {
+  max-width: 640px;
+  line-height: 110%;
+}
+
+p {
+  max-width: 480px;
+  line-height: 140%;
+}
+
+.clam-btn {
+  width: 176px;
+}
+
+.image-container img {
+  height: 640px;
+  width: 640px;
+  border-radius: 48px;
+}
+
+/* Trusted-Company-Section */
+
+h4 {
+  text-align: center;
+}
+
+.trusted-com-section {
   
-  .logo {
-    font-size: 34px;
-  }
-
-   .nav-right {
-    display: flex;
-    justify-content: end;
-    align-items: center;
-    gap: 48px;
-  }
-
-  .nav-links{
-    display: flex;
-    gap: 25px;
-    list-style: none;
-  }
-
-  li a {
-    text-decoration: none;
-    font-size: 18px;
-    color: black;
-  }
-
-   li a:hover {
-    text-decoration: underline;
-    cursor: pointer;
-   }
-
-  .nav-btn-container {
-    display: flex;
-    gap: 25px;
-  }
-
-
-  .log-in-btn {
-    background: transparent;
-    border: 1px solid  #1D1E1C;
-    color: #1D1E1C;
-  }
-
-  /* Hero-Section */
-
-  .hero-section {
-    display: flex;
-    justify-content: space-around;
-    height: 865px;
-    min-width: 1280px;
-    gap: 32px;
-    padding: 112px 64px; 
-  }
-
-  .content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 20px;
-  }
-
-  .tagline {
-    max-width: 640px;
-  }
-
-  p {
-    max-width: 480px;
-  }
-
-  .clam-btn {
-    width: 156px;
-  }
-
-  .image-container img {
-    height: 640px;
-    width: 640px;
-    border-radius: 48px;
-  }
-
-  
-
-
-
-
-
-
-
-
+}
