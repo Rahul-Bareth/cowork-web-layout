@@ -26,6 +26,7 @@ h1 {
 }
 
 h2 {
+  text-align:  center;
   font-size: 48px;
   font-weight: 700;
   color: #1d1e1c;
@@ -164,5 +165,33 @@ h4 {
 }
 
 .trusted-com-section {
-  
+  display: flex;
+  flex-direction: column;
 }
+
+.logos {
+  margin: 0 auto;
+}
+
+/* Choose-Section */
+
+.choose-section {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+ h2 {
+   display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+} 
+
+h2 img {
+  height: 40px;
+  width: 120px;
+  border-radius: 48px;
+}
+
+
+
