@@ -15,10 +15,13 @@
 
 body {
   font-family: "Neue Regrade", sans-serif;
+  height: auto;
+  width: 100vw;
+  margin: 0 auto;
 }
 
 h1 {
-  font-size: 96px;
+  font-size: 76px;
   font-weight: 700;
   color: #1d1e1c;
   line-height: 100%;
@@ -26,7 +29,7 @@ h1 {
 }
 
 h2 {
-  text-align:  center;
+  text-align: center;
   font-size: 48px;
   font-weight: 700;
   color: #1d1e1c;
@@ -56,29 +59,34 @@ p {
 
 button {
   width: 120px;
-  height: 50px;
+  height: 35px;
   border-radius: 42px;
   border: 1px solid #1d1e1c;
-  padding: 12px 24px;
+  padding: 8px 12px;
   color: #ffffff;
   font-size: 16px;
   font-weight: 600;
   background: #1d1e1c;
+  transition: 0.2s ease-in-out;
   cursor: pointer;
 }
 
 /* Header Section */
 header {
-  min-width: 1280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* min-width: 1280px; */
+  /* width: 90%; */
   height: 120px;
-  padding: 15px 64px;
+  padding: 40px;
 }
 
 .navbar {
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 75px;
 }
 
 .logo {
@@ -94,13 +102,15 @@ header {
 
 .nav-links {
   display: flex;
+
   gap: 25px;
   list-style: none;
 }
 
 li a {
   text-decoration: none;
-  font-size: 24px;
+  font-weight: 100;
+  font-size: 16px;
   color: black;
 }
 
@@ -114,21 +124,36 @@ li a:hover {
   gap: 25px;
 }
 
+
 .log-in-btn {
   background: transparent;
   border: 1px solid #1d1e1c;
   color: #1d1e1c;
 }
 
+.log-in-btn:hover {
+  background: #1d1e1c;
+  color: white;
+}
+
+.sign-up-btn:hover {
+  background: transparent;
+  border: 1px solid #1d1e1c;
+  color: #1d1e1c;
+}
+
+
 /* Hero-Section */
 
 .hero-section {
   display: flex;
   justify-content: center;
-  height: 865px;
-  min-width: 1280px;
+  align-items: center;
+  width: 100%;
+  /* height: 865px; */
+  /* min-width: 1280px; */
   gap: 22px;
-  padding: 112px 64px;
+  padding: 40px 40px;
 }
 
 .content {
@@ -153,7 +178,7 @@ p {
 }
 
 .image-container img {
-  height: 640px;
+  height: 540px;
   width: 640px;
   border-radius: 48px;
 }
@@ -165,33 +190,65 @@ h4 {
 }
 
 .trusted-com-section {
+  width: 100%;
   display: flex;
   flex-direction: column;
+  height: 240px;
+  padding: 40px;
 }
 
 .logos {
-  margin: 0 auto;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
 }
 
 /* Choose-Section */
 
 .choose-section {
- display: flex;
- align-items: center;
- justify-content: center;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* height: 670px; */
+  padding: 40px;
 }
- h2 {
-   display: flex;
+
+h2 {
+  display: flex;
   align-items: center;
   justify-content: center;
   gap: 10px;
-} 
+}
 
 h2 img {
   height: 40px;
   width: 120px;
   border-radius: 48px;
 }
+
+.feature-cards {
+  margin-top: 30px;
+  text-align: center;
+  display: flex;
+  gap: 15px;
+  padding: 20px 15px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  height: 205px;
+}
+
+
+.card i {
+  color: teal;
+  font-size: 30px;
+}
+
 
 
 
