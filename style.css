@@ -7,6 +7,7 @@
   font-style: normal;
 }
 
+
 * {
   margin: 0;
   padding: 0;
@@ -34,7 +35,7 @@ h2 {
   font-weight: 700;
   color: #1d1e1c;
   line-height: 120%;
-  /* font-family: Neue Regrade; */
+  font-family: Neue Regrade;
 }
 
 h3 {
@@ -42,19 +43,26 @@ h3 {
   line-height: 140%;
   font-weight: 700;
   color: #1d1e1c;
-  /* font-family: Neue Regrade; */
+  font-family: Neue Regrade;
 }
 
-p {
-  font-size: 14px;
-  color: #1d1e1c;
-}
 
 .h4 {
   font-size: 14px;
   font-size: 600;
   line-height: 150%;
   text-transform: uppercase;
+  font-family: Neue Regrade; 
+  /* border: 1px solid teal; */
+  /* padding: 4px 8px; */
+}
+
+p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #1d1e1c;
+  line-height: 180%;
+  font-family: Neue Regrade;
 }
 
 button {
@@ -187,6 +195,11 @@ p {
 
 h4 {
   text-align: center;
+  text-transform: uppercase;
+  border: 1px solid teal;
+  padding: 4px 8px;
+  width: 30vw;
+  margin: 0 auto;
 }
 
 .trusted-com-section {
@@ -249,6 +262,38 @@ h2 img {
   font-size: 30px;
 }
 
+/* Virtual Tour Section */
 
 
+.virtual-tour-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
 
+h2 {
+   display: flex;
+   gap: 12px;
+}
+
+p {
+ max-width: 800px;
+ text-align: center;
+}
+
+.explore-btn {
+  height: 40px;
+  width: 165px;
+  font-weight: 600;
+  background: transparent;
+  border: 1px solid #1d1e1c;
+  color: #1d1e1c;
+}
+
+.tour-image {
+  height: 500px;
+  width: 1050px;
+  border-radius: 48px;
+  object-fit: cover;
+}
