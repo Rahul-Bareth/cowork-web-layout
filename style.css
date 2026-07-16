@@ -57,6 +57,13 @@ h3 {
   /* padding: 4px 8px; */
 }
 
+
+h5 {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 150%;
+  text-transform: uppercase; 
+}
 p {
   font-size: 14px;
   font-weight: 400;
@@ -270,6 +277,7 @@ h2 img {
   flex-direction: column;
   align-items: center;
   gap: 24px;
+  padding: 40px 40px;
 }
 
 h2 {
@@ -297,3 +305,140 @@ p {
   border-radius: 48px;
   object-fit: cover;
 }
+
+/* Statistics Section */
+
+
+.Statistics-section {
+  padding: 80px 0;
+  height: 865px;
+}
+
+.container {
+  width:90%;
+  margin: auto;
+  max-width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 70px;
+}
+
+
+.left {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column; 
+  flex: 1;
+}
+
+span {
+  font-size:12px;
+  font-weight:600;
+  letter-spacing:1px;
+}
+
+.left h2 {
+   max-width: 480px;
+   text-align: start;
+   font-size:52px;
+   margin:20px 0 50px;
+   line-height:1.1;
+}
+
+
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap:0px;
+  row-gap:0px;
+}
+
+
+.card{
+    display:flex;
+    flex-direction:column;
+    gap:8px;
+}
+
+.card h3 {
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+
+.right {
+  flex: 1;
+}
+
+.right img {
+  height: 540px;
+  width: 100%;
+  border-radius: 48px;
+} 
+
+
+/* Client Review Section */
+.client-review-section {
+ display: flex;
+ flex-direction: column;
+ gap: 30px;
+}
+
+ h5 {
+  text-align: center;
+ }
+
+ .review-container {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 25px;
+   height: 100vh;
+   width: 100vw;
+   flex-wrap: wrap;
+ } 
+
+
+ .review {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 15px;
+  height: 270px;
+  width: 300px;
+  background: #D3F985;
+  margin: 5px;
+  border-radius: 24px;
+ }
+
+ 
+ #review2 {
+  background: #F1F1F1;
+  margin-bottom: 30px;
+ }
+
+ #review3 {
+  background: #A6E8F6;
+  margin-top: 25px;
+ }
+
+ #review4 {
+  background: #FCBEDC;
+  margin-top: 40px;
+ }
+
+ #review5 {
+  background: #FBC899;
+ }
+
+
+
+ .user-profile img {
+  margin-top: 8px;
+  height: 56px;
+  width: 56px;
+  border-radius: 50%;
+  object-fit: cover;
+ }
