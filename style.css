@@ -413,26 +413,33 @@ span {
   border-radius: 24px;
  }
 
+ p{
+  line-height: 180%;
+ }
  
  #review2 {
   background: #F1F1F1;
   margin-bottom: 30px;
+  height: 285px;
  }
 
  #review3 {
   background: #A6E8F6;
   margin-top: 25px;
+  padding: 5px 8px;
+  height: 290px;
  }
 
  #review4 {
   background: #FCBEDC;
   margin-top: 40px;
+  padding: 5px 8px;
  }
 
  #review5 {
   background: #FBC899;
+  padding: 5px 8px;
  }
-
 
 
  .user-profile img {
@@ -442,3 +449,5 @@ span {
   border-radius: 50%;
   object-fit: cover;
  }
+
+ 
