@@ -16,7 +16,7 @@
 body {
   font-family: "Neue Regrade", sans-serif;
   height: auto;
-  width: 100vw;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -225,14 +225,16 @@ h4 {
 /* Choose-Section */
 
 .choose-section {
+  text-align: center;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  /* height: 670px; */
   padding: 40px;
 }
+
+
 
 h2 {
   display: flex;
@@ -247,10 +249,12 @@ h2 img {
   border-radius: 48px;
 }
 
-.feature-cards .card h3{
- text-align: center;
- margin: 0 auto;
+.feature-cards .card h3 {
+  text-align: center;
+  margin: 0 auto;
 }
+
+
 
 .feature-cards {
   margin-top: 30px;
@@ -272,9 +276,12 @@ h2 img {
   font-size: 30px;
 }
 
+
+
 /* Virtual Tour Section */
 
 .virtual-tour-section {
+  /* width: 100%; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -302,14 +309,17 @@ p {
 }
 
 .explore-btn:hover {
-  background:  #1d1e1c;
-  color:  white;
+  background: #1d1e1c;
+  color: white;
 }
 
+.tour-image-container img{
+  max-width: 100%;
+}
 
 .tour-image {
   height: 500px;
-  width: 1050px;
+  width: 1200px;
   border-radius: 48px;
   object-fit: cover;
 }
@@ -317,13 +327,13 @@ p {
 /* Statistics Section */
 
 .Statistics-section {
-  margin: 80px 0;
+  padding: 40px;
   height: 600px;
   width: 100%;
 }
 
 .container {
-  width: 90%;
+  width: 100%;
   margin: auto;
   max-width: 1200px;
   display: flex;
@@ -359,7 +369,7 @@ span {
 
 .stats {
   display: grid;
-  grid-template-columns: repeat(2, 1fr); 
+  grid-template-columns: repeat(2, 1fr);
   row-gap: 8px;
 }
 
@@ -373,13 +383,12 @@ span {
 .card h3 {
   text-align: start;
   margin-bottom: 8px;
-  font-size: 55px;
+  /* font-size: 55px; */
 }
 
- .card p {
- text-align: start;
-} 
-
+.left p {
+  text-align: start;
+}
 
 .right {
   flex: 1;
@@ -426,7 +435,6 @@ h5 {
   transition: 0.3s ease-in-out;
 }
 
-
 p {
   line-height: 180%;
 }
@@ -436,8 +444,6 @@ p {
   margin-bottom: 30px;
   height: 285px;
 }
-
-
 
 #review3 {
   background: #a6e8f6;
@@ -539,9 +545,10 @@ img {
 /* Footer Section */
 
 footer {
+  margin-top: 100px;
   width: 100%;
   height: 420px;
-  padding: 48px;
+  padding: 40px;
 }
 
 .footer-container p {
@@ -558,6 +565,7 @@ h6 {
 }
 
 .footer-container {
+  width: 100%;
   padding: 30px;
   height: 335px;
   background: #1d1e1c;
